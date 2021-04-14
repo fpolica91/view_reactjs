@@ -5,7 +5,7 @@ server.set('view engine', 'jsx');
 server.engine('jsx', require('./utils/express-with-react').createEngine());
 
 server.get('/', (request, response) =>{
-  response.render("welcome", {title: "Welcome to express React"} )
+  response.render("welcome", {title: "Welcome to express React"})
 })
 
 server.get('/about', (request, response) =>{
