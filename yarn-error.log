@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /Users/fabriciopolicarpo/.yarn/bin/yarn.js init --y
+
+PATH: 
+  /Users/fabriciopolicarpo/anaconda3/bin:/usr/local/opt/node@12/bin:/usr/local/opt/node@12/bin:/Users/fabriciopolicarpo/.yarn/bin:/Users/fabriciopolicarpo/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/fabriciopolicarpo/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/fabriciopolicarpo/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/fabriciopolicarpo/.yarn/lib/cli.js:137009:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
